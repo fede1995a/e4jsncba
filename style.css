@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #121314;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arreglosCard {
+    border: 2px solid violet;
+    padding: 25px 0;
+}
+
+.cards {
+    background-color: #f4acb7;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.name {
+    font-size: 2rem;
+    color: rgb(124, 20, 20);
+    font-weight: 900;
+}
+
+.altura {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.peso {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.img {
+    width: 250px;
+    background-color: darkmagenta;
+}
+
+.tipos {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input {
+    text-align: center;
+    width: 120px;
+    padding: 5px 0;
+}
+
+.boton {
+    font-weight: 700;
+    padding: 1rem;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #9a031e;
+    color: whitesmoke;
+}
+
+.boton:hover {
+    color: whitesmoke;
+    background-color: #540b0e;
+    border: 1px solid #6a040f;
+    transition: ease-in-out .4s;
+}
+
+.input {
+    height: 45px;
+    padding: 0 20px;
+    width: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.input:hover {
+    box-shadow: 0 0 10px 0 violet inset, 0 0 10px 4px violet;
+    transition: box-shadow ease .3s;
+}
