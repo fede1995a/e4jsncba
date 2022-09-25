@@ -6,15 +6,15 @@ const cards = document.getElementById('cards');
 
 const miFetch = async(valor) => {
     try {
-        // Aca adentro va a ir nuestro codigo a intentar si esta todo ok
+
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${valor}/`);
 
         const data = await response.json();
-        //console.log(data)
+
         return data;
 
     } catch (error) {
-        // Aca va a ir el codigo en caso de que haya un error
+
         alert(error);
     }
 };
